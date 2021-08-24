@@ -44,7 +44,7 @@ app_ui <- function(request) {
                                 DT::DTOutput("penguin_table"),
                                 br(),
                                 overview_technical(),
-                                p("App written by ", a("Stephanie J. Spielman.", href = "https://spielmanlab.github.io"), "The", a("source code", href = "https://github.com/sjspielman/ds4b.materials/tree/master/inst/apps/types_of_plots"), "is released under an MIT license."),
+                                p("App written by ", a("Stephanie J. Spielman.", href = "https://spielmanlab.github.io"), "The", a("source code", href = "https://github.com/sjspielman/types.of.plots"), "is released under an MIT license."),
                                 
                         ),
                         # UI: Histograms ---------------------------------------
