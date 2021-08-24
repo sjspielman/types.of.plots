@@ -1,0 +1,34 @@
+Package: types.of.plots
+Title: Common Types of Plots.
+Version: 0.0.0.9000
+Authors@R: person('Stephanie', 'Spielman', email = 'spielman@rowan.edu', role = c('cre', 'aut'))
+Description: Common Types of Plots.
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    dplyr (>= 1.0.0),
+    DT,
+    ggplot2 (>= 0.3.2),
+    glue,
+    golem (>= 0.3.1),
+    htmlwidgets,
+    magrittr,
+    palmerpenguins,
+    shiny (>= 1.6.0),
+    shinydashboard,
+    shinyWidgets,
+    tidyr (>= 1.0.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Collate:
+    utils.R
+    fct_descriptions.R
+    fct_build-plot-strings.R
+    modules.R
+    app_config.R
+    app_server.R
+    app_ui.R
+    run_app.R
+Depends: 
+    R (>= 2.10)
