@@ -17,6 +17,7 @@ Imports:
     shiny (>= 1.6.0),
     shinydashboard,
     shinyWidgets,
+    colourpicker,
     tidyr (>= 1.0.0)
 Encoding: UTF-8
 LazyData: true
