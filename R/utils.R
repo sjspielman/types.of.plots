@@ -60,17 +60,17 @@ display_top <- function(dataviz, text) {
 
 theme_custom_string <- function() {
   glue::glue(
-    'theme_set(
-      theme_light() +
-        theme(
-          axis.text = element_text(size = rel(1.5)),
-          axis.title = element_text(size = rel(1.5)),
-          strip.text = element_text(size = rel(1.5)),
-          strip.background = element_rect(fill = "grey30"),
-          plot.title = element_text(size = rel(1.5)),
-          legend.key.size = unit(1, "cm"),
-          legend.text = element_text(size = rel(1.5)),
-          legend.title = element_text(size = rel(1.5)),
+    'ggplot2::theme_set(
+      ggplot2::theme_light() +
+        ggplot2::theme(
+          axis.text = ggplot2::element_text(size = ggplot2::rel(1.5)),
+          axis.title = ggplot2::element_text(size = ggplot2::rel(1.5)),
+          strip.text = ggplot2::element_text(size = ggplot2::rel(1.5)),
+          strip.background = ggplot2::element_rect(fill = "grey30"),
+          plot.title = ggplot2::element_text(size = ggplot2::rel(1.5)),
+          legend.key.size = ggplot2::unit(1, "cm"),
+          legend.text = ggplot2::element_text(size = ggplot2::rel(1.5)),
+          legend.title = ggplot2::element_text(size = ggplot2::rel(1.5)),
           legend.position = "bottom"
       )
     )'
